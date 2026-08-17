@@ -28,7 +28,7 @@ I chase the part of the chain that made me feel stupid five minutes earlier.
 `████████████████████████████████████████` done. the one that made the rest feel possible.
 
 **CRTO** · Certified Red Team Operator
-`███████████████████████████████████████░` 99% — stuck on the last op, and enjoying it more than I should.
+`████████████████████████████████████████` done. my first red team cert.
 
 **ODPC** · Offensive Development Practitioner Certification
 `████████████████░░░░░░░░░░░░░░░░░░░░░░░░` 40% — learning to build the tools instead of just running them.
