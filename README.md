@@ -56,7 +56,7 @@ Every box, chain and misconfiguration that beat me first gets written down prope
 not the sanitized version, the one with the two hours I spent looking in the wrong place.
 
 <p align="center">
-<a href="https://0xberk0.github.io"><strong>root4win.github.io →</strong></a>
+<a href="https://0xberk0.github.io"><strong>0xberk0.github.io →</strong></a>
 </p>
 
 <br>
