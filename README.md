@@ -49,9 +49,26 @@ Small PoCs in C/C++, each one written to understand a technique from the ground 
 **C2** — `Cobalt Strike`<br>
 **Pentest** — `Nmap` `Burp Suite` `Metasploit` `SQLMap` `ffuf`
 
-## Write-ups
+## Latest write-ups
 
-Machines and attack chains documented end to end, dead ends included: **[0xberk0.github.io](https://0xberk0.github.io)**
+Machines and attack chains documented end to end, dead ends included.
+
+<!-- BLOG-POST-LIST:START -->
+- [Certified Htb Writeup](https://0xberk0.github.io/posts/certified-htb-writeup/) — Aug 2026
+- [HackTheBox — Monteverde](https://0xberk0.github.io/posts/monteverde-writeup/) — Aug 2026
+- [HackTheBox — Blackfield](https://0xberk0.github.io/posts/blackfield-writeup/) — Jun 2026
+- [HackTheBox — Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) — Jun 2026
+- [HTB Support Writeup](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026
+<!-- BLOG-POST-LIST:END -->
+
+All write-ups: **[0xberk0.github.io](https://0xberk0.github.io)**
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xBerk0/0xBerk0/output/github-snake-dark.svg">
+  <img alt="contribution graph" src="https://raw.githubusercontent.com/0xBerk0/0xBerk0/output/github-snake.svg">
+</picture>
 
 ---
 
