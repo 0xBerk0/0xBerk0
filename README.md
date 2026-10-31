@@ -1,67 +1,57 @@
-<div align="center">
+```text
+beacon> whoami
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1200,100:000000&height=200&section=header&text=0xBERK&fontSize=64&fontColor=cda24c&animation=twinkling&fontAlignY=42"/>
+  operator    António  //  0xBerk
+  location    Portugal
+  role        red team  ·  offensive development
+  focus       Active Directory  ·  Windows internals  ·  custom tooling
 
-</div>
+beacon> certs
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=17&pause=1400&color=CDA24C&center=true&vCenter=true&width=620&lines=don't+skip+to+the+walkthrough.;get+stuck.+stay+stuck.+understand+why." alt="Typing SVG" />
+  [+] CPTS     Hack The Box          completed
+  [+] CRTO     Zero-Point Security   completed
+  [~] ODPC     offensive development  in progress
+  [~] ARTOC    advanced red team      in progress
+```
+
+<p>
+<img src="https://img.shields.io/badge/CPTS-certified-9FEF00?style=flat-square&labelColor=111111"/>
+<img src="https://img.shields.io/badge/CRTO-certified-cda24c?style=flat-square&labelColor=111111"/>
+<img src="https://img.shields.io/badge/ODPC-in_progress-666666?style=flat-square&labelColor=111111"/>
+<img src="https://img.shields.io/badge/ARTOC-in_progress-666666?style=flat-square&labelColor=111111"/>
 </p>
 
-<p align="center">
-<sub>PT &middot; offensive security &middot; Active Directory &amp; Kerberos abuse</sub>
-</p>
+I work on the offensive side: compromising Active Directory environments and writing the tooling to do it quietly. I care more about understanding why an attack path works than about reaching the flag.
 
-<br>
+## Active Directory & red team operations
 
-<p align="center" style="max-width:640px">
-I'm António. <strong>0xBerk</strong> is what's left after enough machines, enough failed<br>
-Kerberoasts and enough 3am "oh — <em>that's</em> why" moments. I don't chase the flag first —<br>
-I chase the part of the chain that made me feel stupid five minutes earlier.
-</p>
+- Kerberos abuse: Kerberoasting, AS-REP roasting, unconstrained / constrained / resource-based delegation
+- AD CS abuse with Certipy (ESC1–ESC8)
+- ACL abuse and attack path analysis with BloodHound
+- Lateral movement, pivoting and tunneling
+- C2 operations with Cobalt Strike, with attention to OPSEC
 
-<br><br>
+## Offensive development
 
-## `0x01` — CAMPAIGN LOG
+Small PoCs in C/C++, each one written to understand a technique from the ground up rather than reuse someone else's implementation.
 
-**CPTS** · Certified Penetration Testing Specialist
-`████████████████████████████████████████` done. the one that made the rest feel possible.
+| Area | Projects |
+|---|---|
+| Process injection | [Classic](https://github.com/0xBerk0/classic-process-injection) · [Early Bird APC](https://github.com/0xBerk0/process-injection-early-bird) · [Process Hollowing](https://github.com/0xBerk0/process-injection-process-hollowing) · [Payload from resources](https://github.com/0xBerk0/process-injection-using-resources) |
+| Syscalls & EDR evasion | [Indirect syscalls](https://github.com/0xBerk0/indirect-syscalls) · [Halo's Gate](https://github.com/0xBerk0/HalosGate-research) · [Inline hook finder](https://github.com/0xBerk0/windows-api-hook-finder) |
+| PE & PEB internals | [PEB walker](https://github.com/0xBerk0/peb-walker) · [EAT walker](https://github.com/0xBerk0/export-address-table-walker) · [API hashing](https://github.com/0xBerk0/dynamic-imports-with-hashing) · [PE parser](https://github.com/0xBerk0/pe-parser) |
 
-**CRTO** · Certified Red Team Operator
-`████████████████████████████████████████` done. my first red team cert.
+## Stack
 
-**ODPC** · Offensive Development Practitioner Certification
-`████████████████░░░░░░░░░░░░░░░░░░░░░░░░` 40% — learning to build the tools instead of just running them.
+**Languages** — `C` `C++` `C#` `Python` `PowerShell` `Go` `Bash`<br>
+**Active Directory** — `BloodHound` `Impacket` `Rubeus` `Certipy` `Mimikatz` `PowerView`<br>
+**C2** — `Cobalt Strike`<br>
+**Pentest** — `Nmap` `Burp Suite` `Metasploit` `SQLMap` `ffuf`
 
-**ARTOC** · Advanced Red Team Operator Track
-`████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 20% — early days. long way to fall.
+## Write-ups
 
-<br>
+Machines and attack chains documented end to end, dead ends included: **[0xberk0.github.io](https://0xberk0.github.io)**
 
-## `0x02` — WHAT I FIGHT WITH
+---
 
-Daily drivers: `Python` `PowerShell` `C#` `C` `Go` `Bash`
-
-Against Active Directory: `BloodHound` `Impacket` `Mimikatz` `Rubeus` `Certipy` `PowerView` `Cobalt Strike`
-
-Getting in the door: `Nmap` `Burp Suite` `Metasploit` `Gobuster` `SQLMap` `Hydra` `John` `Wireshark`
-
-Home base: `Kali Linux`, `Docker`, `Git`, and whichever VM survived last week's snapshot rollback.
-
-<br>
-
-## `0x03` — THE WRITE-UPS
-
-Every box, chain and misconfiguration that beat me first gets written down properly —
-not the sanitized version, the one with the two hours I spent looking in the wrong place.
-
-<p align="center">
-<a href="https://0xberk0.github.io"><strong>0xberk0.github.io →</strong></a>
-</p>
-
-<br>
-
-<div align="center">
-<sub>educational purposes only — authorized testing only</sub><br><br>
-<sub><strong>0xBerk</strong> &middot; struggle. adapt. understand.</sub>
-</div>
+<sub>All code is for research and authorized testing only. &nbsp;·&nbsp; struggle. adapt. understand.</sub>
