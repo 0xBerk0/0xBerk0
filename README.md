@@ -4,34 +4,29 @@
 
 I work on the offensive side: compromising Active Directory environments and writing the tooling to do it quietly. I care more about understanding why an attack path works than about reaching the flag.
 
-## Active Directory & red team operations
+## TTPs
 
-- Kerberos abuse: Kerberoasting, AS-REP roasting, unconstrained / constrained / resource-based delegation
-- AD CS abuse with Certipy (ESC1–ESC8)
-- ACL abuse and attack path analysis with BloodHound
-- Lateral movement, pivoting and tunneling
-- C2 operations with Cobalt Strike, with attention to OPSEC
+What I've practised, mapped to MITRE ATT&CK, with the code or write-up that backs it.
 
-## Offensive development
-
-Small PoCs in C/C++, each one written to understand a technique from the ground up rather than reuse someone else's implementation.
-
-| Area | Projects |
-|---|---|
-| Process injection | [Classic](https://github.com/0xBerk0/classic-process-injection) · [Early Bird APC](https://github.com/0xBerk0/process-injection-early-bird) · [Process Hollowing](https://github.com/0xBerk0/process-injection-process-hollowing) · [Payload from resources](https://github.com/0xBerk0/process-injection-using-resources) |
-| Syscalls & EDR evasion | [Indirect syscalls](https://github.com/0xBerk0/indirect-syscalls) · [Halo's Gate](https://github.com/0xBerk0/HalosGate-research) · [Inline hook finder](https://github.com/0xBerk0/windows-api-hook-finder) |
-| PE & PEB internals | [PEB walker](https://github.com/0xBerk0/peb-walker) · [EAT walker](https://github.com/0xBerk0/export-address-table-walker) · [API hashing](https://github.com/0xBerk0/dynamic-imports-with-hashing) · [PE parser](https://github.com/0xBerk0/pe-parser) |
-
-## Stack
-
-**Languages** — `C` `C++` `C#` `Python` `PowerShell` `Go` `Bash`<br>
-**Active Directory** — `BloodHound` `Impacket` `Rubeus` `Certipy` `Mimikatz` `PowerView`<br>
-**C2** — `Cobalt Strike`<br>
-**Pentest** — `Nmap` `Burp Suite` `Metasploit` `SQLMap` `ffuf`
+| Tactic | Technique | ATT&CK | Proof of work |
+|---|---|---|---|
+| Credential Access | Kerberoasting | `T1558.003` | [Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) |
+| Credential Access | AS-REP Roasting | `T1558.004` | [Blackfield](https://0xberk0.github.io/posts/blackfield-writeup/) |
+| Credential Access | AD CS abuse (ESC1–ESC8) | `T1649` | [Certified](https://0xberk0.github.io/posts/certified-htb-writeup/) |
+| Credential Access | DCSync | `T1003.006` | [Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) |
+| Privilege Escalation | Kerberos delegation / RBCD | `T1558` | [Support](https://0xberk0.github.io/posts/support-htb-writeup/) |
+| Privilege Escalation | ACL abuse | `T1098` | [Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) · [Certified](https://0xberk0.github.io/posts/certified-htb-writeup/) |
+| Discovery | Attack path analysis with BloodHound | `T1087.002` | |
+| Lateral Movement | Remote services, pivoting & tunneling | `T1021` · `T1572` | |
+| Command & Control | Cobalt Strike operations | `TA0011` | |
+| Defense Evasion | Process hollowing | `T1055.012` | [process-injection-process-hollowing](https://github.com/0xBerk0/process-injection-process-hollowing) |
+| Defense Evasion | Early Bird APC injection | `T1055.004` | [process-injection-early-bird](https://github.com/0xBerk0/process-injection-early-bird) |
+| Defense Evasion | Injection from PE resources | `T1055` | [process-injection-using-resources](https://github.com/0xBerk0/process-injection-using-resources) · [classic-process-injection](https://github.com/0xBerk0/classic-process-injection) |
+| Defense Evasion | Dynamic API resolution (hashing, PEB/EAT walking) | `T1027.007` | [dynamic-imports-with-hashing](https://github.com/0xBerk0/dynamic-imports-with-hashing) · [peb-walker](https://github.com/0xBerk0/peb-walker) · [export-address-table-walker](https://github.com/0xBerk0/export-address-table-walker) |
+| Execution | Indirect syscalls · Halo's Gate | `T1106` | [indirect-syscalls](https://github.com/0xBerk0/indirect-syscalls) · [HalosGate-research](https://github.com/0xBerk0/HalosGate-research) |
+| Discovery | Userland hook detection | `T1518.001` | [windows-api-hook-finder](https://github.com/0xBerk0/windows-api-hook-finder) |
 
 ## Latest write-ups
-
-Machines and attack chains documented end to end, dead ends included.
 
 <!-- BLOG-POST-LIST:START -->
 - [Certified Htb Writeup](https://0xberk0.github.io/posts/certified-htb-writeup/) — Aug 2026
@@ -41,11 +36,16 @@ Machines and attack chains documented end to end, dead ends included.
 - [HTB Support Writeup](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026
 <!-- BLOG-POST-LIST:END -->
 
-All write-ups: **[0xberk0.github.io](https://0xberk0.github.io)**
+Every machine documented end to end, dead ends included → **[0xberk0.github.io](https://0xberk0.github.io)**
 
-<br>
+## Toolkit
 
-<img src="profile-3d-contrib/profile-night-view.svg" alt="contribution graph in 3D" width="100%"/>
+```text
+lang     C · C++ · C# · Python · PowerShell · Go · Bash
+ad       BloodHound · Impacket · Rubeus · Certipy · Mimikatz · PowerView
+c2       Cobalt Strike
+web/net  Nmap · Burp Suite · Metasploit · SQLMap · ffuf
+```
 
 ---
 
