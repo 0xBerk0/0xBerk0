@@ -1,25 +1,5 @@
-```text
-beacon> whoami
-
-  operator    António  //  0xBerk
-  location    Portugal
-  role        red team  ·  offensive development
-  focus       Active Directory  ·  Windows internals
-              custom offensive tooling
-
-beacon> certs
-
-  [+] CPTS     Hack The Box            completed
-  [+] CRTO     Zero-Point Security     completed
-  [~] ODPC     offensive development   in progress
-  [~] ARTOC    advanced red team       in progress
-```
-
-<p>
-<img src="https://img.shields.io/badge/CPTS-certified-9FEF00?style=flat-square&labelColor=111111"/>
-<img src="https://img.shields.io/badge/CRTO-certified-cda24c?style=flat-square&labelColor=111111"/>
-<img src="https://img.shields.io/badge/ODPC-in_progress-666666?style=flat-square&labelColor=111111"/>
-<img src="https://img.shields.io/badge/ARTOC-in_progress-666666?style=flat-square&labelColor=111111"/>
+<p align="center">
+  <img src="assets/terminal.svg" alt="beacon> whoami — António (0xBerk), red team and offensive development. CPTS, CRTO completed; ODPC, ARTOC in progress." width="100%"/>
 </p>
 
 I work on the offensive side: compromising Active Directory environments and writing the tooling to do it quietly. I care more about understanding why an attack path works than about reaching the flag.
@@ -58,16 +38,14 @@ Machines and attack chains documented end to end, dead ends included.
 - [HackTheBox — Monteverde](https://0xberk0.github.io/posts/monteverde-writeup/) — Aug 2026
 - [HackTheBox — Blackfield](https://0xberk0.github.io/posts/blackfield-writeup/) — Jun 2026
 - [HackTheBox — Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) — Jun 2026
-- [HTB Support Writeup](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026<!-- BLOG-POST-LIST:END -->
+- [HTB Support Writeup](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026
+<!-- BLOG-POST-LIST:END -->
 
 All write-ups: **[0xberk0.github.io](https://0xberk0.github.io)**
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xBerk0/0xBerk0/output/github-snake-dark.svg">
-  <img alt="contribution graph" src="https://raw.githubusercontent.com/0xBerk0/0xBerk0/output/github-snake.svg">
-</picture>
+<img src="profile-3d-contrib/profile-night-view.svg" alt="contribution graph in 3D" width="100%"/>
 
 ---
 
