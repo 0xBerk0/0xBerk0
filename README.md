@@ -16,7 +16,6 @@ Red team operator from Portugal. I break Active Directory environments and write
 - [HackTheBox — Monteverde](https://0xberk0.github.io/posts/monteverde-writeup/) — Aug 2026
 - [HackTheBox — Blackfield](https://0xberk0.github.io/posts/blackfield-writeup/) — Jun 2026
 - [HackTheBox — Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) — Jun 2026
-- [HTB Support Writeup](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026
-<!-- BLOG-POST-LIST:END -->
+- [HTB Support Writeup](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026<!-- BLOG-POST-LIST:END -->
 
 <sub>research & authorized testing only · struggle. adapt. understand.</sub>
