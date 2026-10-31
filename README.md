@@ -4,14 +4,15 @@ beacon> whoami
   operator    António  //  0xBerk
   location    Portugal
   role        red team  ·  offensive development
-  focus       Active Directory  ·  Windows internals  ·  custom tooling
+  focus       Active Directory  ·  Windows internals
+              custom offensive tooling
 
 beacon> certs
 
-  [+] CPTS     Hack The Box          completed
-  [+] CRTO     Zero-Point Security   completed
-  [~] ODPC     offensive development  in progress
-  [~] ARTOC    advanced red team      in progress
+  [+] CPTS     Hack The Box            completed
+  [+] CRTO     Zero-Point Security     completed
+  [~] ODPC     offensive development   in progress
+  [~] ARTOC    advanced red team       in progress
 ```
 
 <p>
