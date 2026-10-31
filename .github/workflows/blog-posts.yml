@@ -17,6 +17,6 @@ jobs:
         with:
           feed_list: "https://0xberk0.github.io/feed.xml"
           max_post_count: 5
-          template: "- [$title]($url) — $date $newline"
+          template: "$newline- [$title]($url) — $date"
           date_format: "mmm yyyy"
           commit_message: "Update latest write-ups"
