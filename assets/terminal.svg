@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 404" width="640" height="404" role="img" aria-label="0xBerk terminal: red team operator, CPTS and CRTO certified">
+<style>
+text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;font-size:14px;white-space:pre}
+@keyframes show{to{opacity:1}}
+.cur{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+.l0{opacity:0;animation:show .15s 0.4s forwards}
+.l2{opacity:0;animation:show 0s 1.0s forwards}
+.r2{animation:type2 0.42s steps(6) 1.3s forwards} @keyframes type2{to{width:52.400000000000006px}}
+.l3{opacity:0;animation:show .15s 2.07s forwards}
+.l4{opacity:0;animation:show .15s 2.19s forwards}
+.l5{opacity:0;animation:show .15s 2.31s forwards}
+.l6{opacity:0;animation:show .15s 2.43s forwards}
+.l8{opacity:0;animation:show 0s 2.5500000000000003s forwards}
+.r8{animation:type8 0.35s steps(5) 2.85s forwards} @keyframes type8{to{width:44.0px}}
+.l9{opacity:0;animation:show .15s 3.5500000000000003s forwards}
+.l10{opacity:0;animation:show .15s 3.6700000000000004s forwards}
+.l11{opacity:0;animation:show .15s 3.7900000000000005s forwards}
+.l12{opacity:0;animation:show .15s 3.9100000000000006s forwards}
+.l14{opacity:0;animation:show 0s 4.03s forwards}
+</style>
+<rect width="640" height="404" rx="10" fill="#0b0b0b" stroke="#2a2418"/>
+<rect width="640" height="32" rx="10" fill="#141210"/><rect y="22" width="640" height="10" fill="#141210"/>
+<circle cx="22" cy="16" r="5" fill="#3a3228"/><circle cx="40" cy="16" r="5" fill="#3a3228"/><circle cx="58" cy="16" r="5" fill="#3a3228"/>
+<text x="320" y="20" text-anchor="middle" fill="#7d7466" style="font-size:12px">0xberk@teamserver: ~/ops</text>
+<text class="l0" x="24" y="64"><tspan fill="#7d7466">[*] beacon 0xBerk@PT checked in · x64 · sleep 60s · jitter 20%</tspan></text>
+<g class="l2"><text x="24" y="108"><tspan fill="#cda24c">beacon&gt; </tspan></text><clipPath id="c2"><rect class="r2" x="91.2" y="92" width="0" height="22"/></clipPath><text x="91.2" y="108" fill="#d8d2c4" clip-path="url(#c2)">whoami</text></g>
+<text class="l3" x="24" y="130"><tspan fill="#7d7466">  operator    </tspan><tspan fill="#d8d2c4">António // 0xBerk</tspan></text>
+<text class="l4" x="24" y="152"><tspan fill="#7d7466">  location    </tspan><tspan fill="#d8d2c4">Portugal</tspan></text>
+<text class="l5" x="24" y="174"><tspan fill="#7d7466">  role        </tspan><tspan fill="#d8d2c4">red team · offensive development</tspan></text>
+<text class="l6" x="24" y="196"><tspan fill="#7d7466">  focus       </tspan><tspan fill="#d8d2c4">Active Directory · Windows internals · custom tooling</tspan></text>
+<g class="l8"><text x="24" y="240"><tspan fill="#cda24c">beacon&gt; </tspan></text><clipPath id="c8"><rect class="r8" x="91.2" y="224" width="0" height="22"/></clipPath><text x="91.2" y="240" fill="#d8d2c4" clip-path="url(#c8)">certs</text></g>
+<text class="l9" x="24" y="262"><tspan fill="#9fef00">  [+] </tspan><tspan fill="#cda24c">CPTS    </tspan><tspan fill="#d8d2c4">Hack The Box            </tspan><tspan fill="#9fef00">completed</tspan></text>
+<text class="l10" x="24" y="284"><tspan fill="#9fef00">  [+] </tspan><tspan fill="#cda24c">CRTO    </tspan><tspan fill="#d8d2c4">Zero-Point Security     </tspan><tspan fill="#9fef00">completed</tspan></text>
+<text class="l11" x="24" y="306"><tspan fill="#7d7466">  [~] </tspan><tspan fill="#cda24c">ODPC    </tspan><tspan fill="#d8d2c4">offensive development   </tspan><tspan fill="#7d7466">in progress</tspan></text>
+<text class="l12" x="24" y="328"><tspan fill="#7d7466">  [~] </tspan><tspan fill="#cda24c">ARTOC   </tspan><tspan fill="#d8d2c4">advanced red team       </tspan><tspan fill="#7d7466">in progress</tspan></text>
+<g class="l14"><text x="24" y="372" fill="#cda24c">beacon&gt; </text><rect class="cur" x="91.2" y="358" width="8" height="17" fill="#cda24c"/></g>
+</svg>
