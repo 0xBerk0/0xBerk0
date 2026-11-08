@@ -12,10 +12,10 @@ Red team operator from Portugal. I break Active Directory environments and write
 ### `> latest write-ups`
 
 <!-- BLOG-POST-LIST:START -->
+- [HackTheBox — Shocker](https://0xberk0.github.io/posts/shocker-htb-writeup/) — Nov 2026
+- [HackTheBox — Nibbles](https://0xberk0.github.io/posts/nibbles-htb-writeup/) — Nov 2026
 - [HackTheBox — Certified](https://0xberk0.github.io/posts/certified-htb-writeup/) — Aug 2026
 - [HackTheBox — Monteverde](https://0xberk0.github.io/posts/monteverde-writeup/) — Aug 2026
-- [HackTheBox — Blackfield](https://0xberk0.github.io/posts/blackfield-writeup/) — Jun 2026
-- [HackTheBox — Administrator](https://0xberk0.github.io/posts/Administrator-htb-writeup/) — Jun 2026
-- [HackTheBox — Support](https://0xberk0.github.io/posts/support-htb-writeup/) — Jun 2026<!-- BLOG-POST-LIST:END -->
+- [HackTheBox — Blackfield](https://0xberk0.github.io/posts/blackfield-writeup/) — Jun 2026<!-- BLOG-POST-LIST:END -->
 
 <sub>research & authorized testing only · struggle. adapt. understand.</sub>
